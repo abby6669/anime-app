@@ -33,9 +33,36 @@ nav {
 }
 
 .top {
+    display: flex;
+    justify-content: start;
     color: black;
+    margin-bottom: 20px;
+    font-family: sans-serif;
 }
 
+.main-head {
+
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+
+  
+}
+
+input {
+    
+    border: 1px solid;
+    box-shadow: 5px 2px;
+}
+
+.search-box {
+    width: 350px;
+}
+
+.link {
+    text-decoration: none;
+}
 
 
 

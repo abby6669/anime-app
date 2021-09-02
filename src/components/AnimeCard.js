@@ -6,7 +6,7 @@ function AnimeCard({anime}) {
 
 
 
-        <div className="col-3 my-3">
+        <div className="col-3 my-3 fluid">
           
               <Card className="card w-75 h-100 mx-auto">
               <Card.Img variant="top" src={anime.image_url}/>
@@ -24,16 +24,12 @@ function AnimeCard({anime}) {
 
 
 
+
+
+
+
     )
 }
 
 export default AnimeCard
 
-// <article className="anime-card">
-// <a href={anime.url} target="_blank">
-//   <figure>
-//     <img src= {anime.image_url} alt="anime-img"/>
-//   </figure>
-//   <h3>{ anime.title }</h3>
-// </a>
-// </article>
