@@ -1,6 +1,7 @@
+
 .Titulo {
     padding-top: 35px;
-    padding-bottom: 35px;
+
     display: flex;
     justify-content: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -16,13 +17,15 @@ strong {
 }
 
 nav {
-
+    background-image: url("https://wallpapercave.com/wp/wp4033148.jpg");
     margin-bottom: 10px;
+    background-position: top;
+
     
 }
 
 .anime-list {
-    
+    background-image: url("https://images.hdqwalls.com/wallpapers/bthumb/view-from-my-home-12k-8z.jpg");
     margin: 80px;
     
 }
@@ -35,9 +38,10 @@ nav {
 .top {
     display: flex;
     justify-content: start;
-    color: black;
+    color: white;
     margin-bottom: 20px;
     font-family: sans-serif;
+    text-shadow: 1px 1px 1px black;
 }
 
 .main-head {
@@ -61,8 +65,11 @@ input {
 }
 
 .link {
+    text-shadow: 1px 1px 1px #fff;
     text-decoration: none;
+    
 }
+
 
 
 
