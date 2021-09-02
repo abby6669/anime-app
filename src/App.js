@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import Counter from './components/counter'
 import Header from './components/Header'
 import Sidebar from './components/Sidebar'
 import MainContent from './components/MainContent';
@@ -50,7 +49,7 @@ function App() {
 
     <div>
 
-      {/* < Counter/> */}
+
 
       < Header/>
 
