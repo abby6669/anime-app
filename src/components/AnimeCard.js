@@ -24,7 +24,7 @@ function AnimeCard({anime}) {
 
         // </div>
 
-        <Card xs={6} md={4} className="card mb-5 mx-auto" >
+        <Card className="card mb-5 mx-auto" >
         <Row>
           <Col>
             <Card.Img src={anime.image_url}/>
