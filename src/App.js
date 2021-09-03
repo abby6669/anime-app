@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import Header from './components/Header'
 import Sidebar from './components/Sidebar'
 import MainContent from './components/MainContent';
+import { Container, Row, Col} from 'react-bootstrap'
 import './App.css';
 
 
@@ -47,30 +48,40 @@ function App() {
   return (
     <>
 
-    <div>
+    <Container>
+      <Row>
+        <Col>
 
 
+        <div>
 
-      < Header/>
+          < Header/>
 
-    </div>
+        </div>
 
-    <div>
-    <div className="content-wrap">
-        < Sidebar
-          topAnime={topAnime} />
-          < br/>
-         < MainContent
-            HandleSearch={HandleSearch}
-            search={search}
-            setSearch={setSearch}
-            
-            animeList={animeList}
-            
-         />
+        <div>
+          <div className="content-wrap">
+            < Sidebar
+              topAnime={topAnime} />
+              < br/>
+            < MainContent
+                HandleSearch={HandleSearch}
+                search={search}
+                setSearch={setSearch}
+                
+                animeList={animeList}
+                
+            />
 
-      </div>
-    </div>
+          </div>
+        </div>
+
+
+        </Col>
+      </Row>
+    </Container>
+
+
   
     </>
 
