@@ -48,9 +48,7 @@ function App() {
   return (
     <>
 
-    <Container>
-      <Row>
-        <Col>
+
 
 
         <div>
@@ -77,9 +75,7 @@ function App() {
         </div>
 
 
-        </Col>
-      </Row>
-    </Container>
+
 
 
   
