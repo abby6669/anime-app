@@ -17,7 +17,7 @@ function MainContent(props) {
                 </Form>
             </div>
             
-            <div className="anime-list row container-fluid">
+            <div className="anime-list row">
                 {props.animeList.map(anime => {
                     return (
 

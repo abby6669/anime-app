@@ -27,6 +27,7 @@ nav {
 .anime-list {
     background-image: url("https://images.hdqwalls.com/wallpapers/bthumb/view-from-my-home-12k-8z.jpg");
     margin: 80px;
+    padding-left: 20px;
     
 }
 
@@ -70,7 +71,12 @@ input {
     
 }
 
+.content-wrap {
+    display: inline-block;
 
+
+    
+}
 
 
 
